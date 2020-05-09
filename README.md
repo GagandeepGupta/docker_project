@@ -22,7 +22,9 @@ I am using redhat for integration of docker containerization technique with mysq
  . docker volume create wp_storage
   ```
  ### To run container
+```bash
  . docker run -dit -e --name dbos -e MYSQL_ROOT_PASSWORD=rootpass  MYSQL_USER=gagan_gupta -e MYSQL_PASSWORD=redhat -e MYSQL_DATABASE=dbmy -v mysql_storage:/var/lib/mysql mysql:5.7
+```
 
 after this command your your mysql is ready just check IP address by
 ```bash
