@@ -33,4 +33,4 @@ after this command your your mysql is ready just check IP address by
  . docker run -dit -e Wordpress_DB_HOST= dbos -e WORDPRESS_DB_USER=gagan_gupta -e WORDPRESS_DB_PASSWORD=redhat -e WORDPRESS_DB_NAME=dbmy -p 1231:80 --link dbos --name wpos -v wp_storage:/var/www/html  wordpress:5.1.1-php7.3-apache
  now your worpress is ready or mysql is ready
  
- you can integrate both and see using (docker log wpos_ 
+ you can integrate both and see using (docker log wpos )
